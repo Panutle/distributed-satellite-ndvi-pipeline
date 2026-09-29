@@ -92,11 +92,9 @@ distributed-satellite-ndvi-pipeline/
 ├── .gitignore
 ├── config/
 │   └── db_config.example.py       # Sanitized database connection template
-├── src/
-│   ├── distributed_ndvi_worker.py # Ray remote tasks & raster compute engine
-│   └── pipeline_manager.py        # Cluster initialization & orchestration loop
-└── docs/
-    └── system_architecture.png    # Ray workflow diagram
+└── src/
+    ├── distributed_ndvi_worker.py # Ray remote tasks & raster compute engine
+    └── pipeline_manager.py        # Cluster initialization & orchestration loop
 ```
 
 ---
