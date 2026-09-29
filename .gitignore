@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large files & geospatial data
+*.tif
+*.tiff
+*.shp
+*.geojson
+*.tar.gz
+*.zip
+
+# Database credentials & local env
+.env
+db_config.py
+
+# Ray temporary runtime data
+/tmp/ray/
+session_*
